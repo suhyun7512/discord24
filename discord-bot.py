@@ -8,6 +8,7 @@ import asyncio
 import random
 from decimal import Decimal, getcontext
 import copy
+import os
 
 # 정확도를 높여 부동소수점 연산의 오차를 최소화
 getcontext().prec = 6
@@ -1919,4 +1920,4 @@ async def buy_material(ctx, item_name, quantity: int):
 
 
 # 봇 실행
-bot.run(token)
+bot.run(os.environ['MTExMTU2NjAyNjc1NzM5NDQ3Mw.GQ7Ld_.PAzeobtYhFzk1ZIASQSOu0XQxVoOOx2DgqmfTo'])
