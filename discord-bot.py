@@ -28,9 +28,6 @@ firebase_admin.initialize_app(cred, {
 # Firestore 데이터베이스 초기화
 db = firestore.client()
 
-# 봇 토큰
-token = 'MTExMTU2NjAyNjc1NzM5NDQ3Mw.GQ7Ld_.PAzeobtYhFzk1ZIASQSOu0XQxVoOOx2DgqmfTo'  
-
 # 인텐트 설정
 intents = discord.Intents.all()
 intents.messages = True
